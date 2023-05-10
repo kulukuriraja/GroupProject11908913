@@ -20,7 +20,7 @@ public class CommentPage {
     public void TweetVerification() throws InterruptedException{
         comment.click();
         Thread.sleep(2000);
-        commentaddress.sendKeys("Done");
+        commentaddress.sendKeys("Done2");
         Thread.sleep(2000);
         reply.click();
         Thread.sleep(6000);
